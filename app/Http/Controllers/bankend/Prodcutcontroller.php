@@ -56,4 +56,5 @@ class Prodcutcontroller extends Controller
                         ->get();
         return view('bankend.edit-product',['editproduct'=>$editproduct]);        
     }
+    // hello
 }
